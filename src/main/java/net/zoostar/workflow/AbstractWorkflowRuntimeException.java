@@ -1,6 +1,6 @@
 package net.zoostar.workflow;
 
-public abstract class WorkflowException extends Exception {
+public abstract class AbstractWorkflowRuntimeException extends RuntimeException {
 
 	/**
 	 * 
